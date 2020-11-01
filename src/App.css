@@ -1,0 +1,33 @@
+.App{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  height: 100;
+}
+
+Button {
+  color: white;
+  margin-left: auto;
+  text-transform: none;
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Validating-Sentence {
+  color: crimson;
+}
+
+.TermsOfService-and-UserAgreement {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
